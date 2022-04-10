@@ -3,6 +3,7 @@ import Header from '../Header';
 import Beers from '../pages/Beers';
 import NewBeer from '../pages/NewBeer';
 import RandomBeer from '../pages/RandomBeer';
+import BeerDetails from '../BeerDetails';
 
 const AppMain = () => {
 	return (
@@ -12,6 +13,7 @@ const AppMain = () => {
 				<Route path="/beers" element={<Beers />} />
 				<Route path="/random-beer" element={<RandomBeer />} />
 				<Route path="/new-beer" element={<NewBeer />} />
+				<Route path="/beers/:beerId" element={<BeerDetails />} />
 			</Routes>
 		</>
 	)
