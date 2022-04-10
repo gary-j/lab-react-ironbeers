@@ -4,7 +4,7 @@ import './Header.css'
 const Header = () => {
   return (
     <div className='header'>
-    <i class="bi bi-house-fill"></i>
+    <i className="bi bi-house-fill"></i>
     </div>
   )
 }
