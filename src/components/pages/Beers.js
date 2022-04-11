@@ -16,7 +16,7 @@ const Beers = () => {
         <div class="row">
           {allBeers.map((beer) => {
             return (
-                <div key={beer._id} className="card col-6 ">
+                <div key={beer._id} id={beer._id} className="card col-6 ">
               <Link to={`/beers/${beer._id}`}>
                   <div className="row g-0">
                     <div className="col-md-4">

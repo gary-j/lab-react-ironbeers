@@ -1,9 +1,20 @@
+.card{
+    height: calc(100vh /3);
+}
+.allbeers{
+    background-image: url('../../assets/beers.png');
+}
+.randombeer{
+    background-image: url('../../assets/random-beer.png');
+}
+.newbeer{
+    background-image: url('../../assets/new-beer.png');
+}
 .card-img-overlay{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
 }
 .btn-primary{
 
