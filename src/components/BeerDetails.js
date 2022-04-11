@@ -22,7 +22,7 @@ const BeerDetails = () => {
       <div>BeerDetails</div>
       {
         
-      <div className="card beerdetails">
+      <div className="card beerDetails">
         <img src={beer.image_url} className="card-img-top" alt={beer.name} />
         <div className="card-body">
           <h2 className="card-title">{beer.name}</h2>

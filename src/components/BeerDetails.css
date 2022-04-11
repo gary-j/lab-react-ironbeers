@@ -1,4 +1,4 @@
-.beerdetails img{
+.beerDetails img, .beerRandom img{
     width: 16vw;
     margin: auto;
 }
