@@ -22,7 +22,7 @@ const Beers = () => {
                     <div className="col-md-4">
                       <img
                         src={beer.image_url}
-                        className="img-fluid rounded-start"
+                        className="img-fluid rounded-start beers"
                         alt={beer.name}
                       />
                     </div>

@@ -8,4 +8,4 @@ const getBeersFromApi = async ()=>{
     return data
 }
 
-export {getBeersFromApi};
+export {getBeersFromApi, BASE_URL};
